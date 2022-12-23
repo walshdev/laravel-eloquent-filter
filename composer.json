@@ -12,7 +12,8 @@
     "homepage": "https://github.com/walshdev/laravel-eloquent-filter",
     "keywords": ["Laravel", "LaravelEloquentFilter"],
     "require": {
-        "illuminate/support": "~9"
+        "illuminate/support": "~9",
+        "walshdev/laravel-helpers": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~9.0",

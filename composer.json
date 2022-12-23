@@ -1,0 +1,41 @@
+{
+    "name": "walshdev/laravel-eloquent-filter",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/walshdev/laravel-eloquent-filter",
+    "keywords": ["Laravel", "LaravelEloquentFilter"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Walshdev\\LaravelEloquentFilter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Walshdev\\LaravelEloquentFilter\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Walshdev\\LaravelEloquentFilter\\LaravelEloquentFilterServiceProvider"
+            ],
+            "aliases": {
+                "LaravelEloquentFilter": "Walshdev\\LaravelEloquentFilter\\Facades\\LaravelEloquentFilter"
+            }
+        }
+    }
+}
